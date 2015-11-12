@@ -1,0 +1,770 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pattern Primer</title>
+<link rel="stylesheet" href="global.css">
+<style>
+.pattern {
+    clear: both;
+    overflow: hidden;
+}
+.pattern .display {
+    width: 65%;
+    float: left;
+}
+.pattern .source {
+    width: 30%;
+    float: right;
+}
+.pattern .source textarea {
+    width: 90%;
+}
+</style>
+</head>
+<body>
+
+<div class="pattern"><div class="display"><head>
+<style>
+.container{
+	width: 1200px;
+	height: 70vh;
+	background-color: white;
+	margin: 10px auto;
+	min-height: 300px;
+	overflow: scroll;
+	border: black solid 3px;
+	box-sizing:border-box;
+.contentcontainer{
+	background-color:white;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	
+
+}
+
+
+
+}
+</style>
+</head>
+
+<div class="container"><div class="contentcontainer"></div></div></div><div class="source"><textarea rows="6" cols="30">&lt;head&gt;
+&lt;style&gt;
+.container{
+	width: 1200px;
+	height: 70vh;
+	background-color: white;
+	margin: 10px auto;
+	min-height: 300px;
+	overflow: scroll;
+	border: black solid 3px;
+	box-sizing:border-box;
+.contentcontainer{
+	background-color:white;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	
+
+}
+
+
+
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;contentcontainer&quot;&gt;&lt;/div&gt;&lt;/div&gt;</textarea><p><a href="patterns/container.html">container.html</a></p></div></div><div class="pattern"><div class="display">
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Khula:400,800,700,600,300' rel='stylesheet' type='text/css'>
+<style>
+
+.contentbox{
+height: 300px;
+width: 300px;
+background-color: black;
+box-sizing:border-box;
+margin-bottom: 15px;
+display: flex;
+flex-direction:column;
+justify-content:space-around;
+align-items:center;
+padding-right:3px; 
+padding-left:3px;
+}
+.red{
+background-color: #FD6023;
+color: white;
+}
+
+.yellow{
+background-color: #F9E100;
+color: black;
+}
+
+.blue{
+  background-color: #0052EE;
+  color:white;
+}
+
+.green{
+background-color: #00D85E;
+color:white;
+}
+
+.pink{
+  background-color: #EEA1A1;
+  color: white;
+
+}
+
+.black{
+  background-color: black;
+  color: white;
+
+}
+
+
+
+
+
+.contentimage{
+  position: relative;
+height: 75%;
+width: 96%;
+background-color: white;
+display:flex;
+    flex-direction:row-reverse;
+
+ 
+    overflow:hidden;
+    background-image:url("http://www.fillmurray.com/200/300");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.contentimage img {
+  position: absolute;
+    flex-shrink:0;
+    min-width:100%;
+    min-height:100%;
+   
+}
+
+.contentdate{
+    background-color: black;
+  color:white;
+  height: 25px;
+  width: 60px;
+  font-size: 12px;
+  box-sizing:border-box;
+  text-align: center;
+
+ 
+}
+
+.contenttitle{
+  width: 100%;
+  
+  box-sizing:border-box;
+  padding: 5px;
+  font-size: 18px;
+  font-family: 'Khula', sans-serif;
+  font-weight: 700;
+  line-height: 20px
+}
+
+
+</style>
+</head>
+<div class="contentbox blue">
+	<div class="contentimage"><img src="http://fillmurray.com/200/300"><div class="contentdate">11.25.15</div></div>
+	<div class="contenttitle">This is the title.</div>
+</div>
+</div><div class="source"><textarea rows="6" cols="30">
+&lt;head&gt;
+	&lt;link href='https://fonts.googleapis.com/css?family=Khula:400,800,700,600,300' rel='stylesheet' type='text/css'&gt;
+&lt;style&gt;
+
+.contentbox{
+height: 300px;
+width: 300px;
+background-color: black;
+box-sizing:border-box;
+margin-bottom: 15px;
+display: flex;
+flex-direction:column;
+justify-content:space-around;
+align-items:center;
+padding-right:3px; 
+padding-left:3px;
+}
+.red{
+background-color: #FD6023;
+color: white;
+}
+
+.yellow{
+background-color: #F9E100;
+color: black;
+}
+
+.blue{
+  background-color: #0052EE;
+  color:white;
+}
+
+.green{
+background-color: #00D85E;
+color:white;
+}
+
+.pink{
+  background-color: #EEA1A1;
+  color: white;
+
+}
+
+.black{
+  background-color: black;
+  color: white;
+
+}
+
+
+
+
+
+.contentimage{
+  position: relative;
+height: 75%;
+width: 96%;
+background-color: white;
+display:flex;
+    flex-direction:row-reverse;
+
+ 
+    overflow:hidden;
+    background-image:url(&quot;http://www.fillmurray.com/200/300&quot;);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.contentimage img {
+  position: absolute;
+    flex-shrink:0;
+    min-width:100%;
+    min-height:100%;
+   
+}
+
+.contentdate{
+    background-color: black;
+  color:white;
+  height: 25px;
+  width: 60px;
+  font-size: 12px;
+  box-sizing:border-box;
+  text-align: center;
+
+ 
+}
+
+.contenttitle{
+  width: 100%;
+  
+  box-sizing:border-box;
+  padding: 5px;
+  font-size: 18px;
+  font-family: 'Khula', sans-serif;
+  font-weight: 700;
+  line-height: 20px
+}
+
+
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;div class=&quot;contentbox blue&quot;&gt;
+	&lt;div class=&quot;contentimage&quot;&gt;&lt;img src=&quot;http://fillmurray.com/200/300&quot;&gt;&lt;div class=&quot;contentdate&quot;&gt;11.25.15&lt;/div&gt;&lt;/div&gt;
+	&lt;div class=&quot;contenttitle&quot;&gt;This is the title.&lt;/div&gt;
+&lt;/div&gt;
+</textarea><p><a href="patterns/contentdate.html">contentdate.html</a></p></div></div><div class="pattern"><div class="display"><head>
+	<link href='https://fonts.googleapis.com/css?family=Khula:400,800,700,600,300' rel='stylesheet' type='text/css'>
+<style>
+.filternav{
+height: 45px;
+width: 100%;
+background-color: pink;
+display: flex;
+
+box-sizing:border-box;
+
+
+}
+
+
+.filterbutton{
+	flex-grow:1;
+	background-color: red;
+	height: 45px;
+	width: 100px;
+	font-family: 'Khula', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	padding-top:.7em;
+
+box-sizing:border-box;
+}
+.filterbutton:hover{
+	color:yellow;
+}
+.red{
+background-color: #FD6023;
+color: white;
+}
+
+.yellow{
+background-color: #F9E100;
+color: black;
+}
+
+.blue{
+  background-color: #0052EE;
+  color:white;
+}
+
+.green{
+background-color: #00D85E;
+color:white;
+}
+
+.pink{
+  background-color: #EEA1A1;
+  color: white;
+
+}
+
+.black{
+  background-color: black;
+  color: white;
+
+}
+</style>
+</head>
+<div class="filternav"><div class="filterbutton green">Events</div><div class="filterbutton red">Design League</div><div class="filterbutton pink">News</div><div class="filterbutton blue">Dialogues</div><div class="filterbutton yellow">Mixtapes</div><div class="filterbutton black">Spotlight</div></div></div><div class="source"><textarea rows="6" cols="30">&lt;head&gt;
+	&lt;link href='https://fonts.googleapis.com/css?family=Khula:400,800,700,600,300' rel='stylesheet' type='text/css'&gt;
+&lt;style&gt;
+.filternav{
+height: 45px;
+width: 100%;
+background-color: pink;
+display: flex;
+
+box-sizing:border-box;
+
+
+}
+
+
+.filterbutton{
+	flex-grow:1;
+	background-color: red;
+	height: 45px;
+	width: 100px;
+	font-family: 'Khula', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	padding-top:.7em;
+
+box-sizing:border-box;
+}
+.filterbutton:hover{
+	color:yellow;
+}
+.red{
+background-color: #FD6023;
+color: white;
+}
+
+.yellow{
+background-color: #F9E100;
+color: black;
+}
+
+.blue{
+  background-color: #0052EE;
+  color:white;
+}
+
+.green{
+background-color: #00D85E;
+color:white;
+}
+
+.pink{
+  background-color: #EEA1A1;
+  color: white;
+
+}
+
+.black{
+  background-color: black;
+  color: white;
+
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;div class=&quot;filternav&quot;&gt;&lt;div class=&quot;filterbutton green&quot;&gt;Events&lt;/div&gt;&lt;div class=&quot;filterbutton red&quot;&gt;Design League&lt;/div&gt;&lt;div class=&quot;filterbutton pink&quot;&gt;News&lt;/div&gt;&lt;div class=&quot;filterbutton blue&quot;&gt;Dialogues&lt;/div&gt;&lt;div class=&quot;filterbutton yellow&quot;&gt;Mixtapes&lt;/div&gt;&lt;div class=&quot;filterbutton black&quot;&gt;Spotlight&lt;/div&gt;&lt;/div&gt;</textarea><p><a href="patterns/filternav.html">filternav.html</a></p></div></div><div class="pattern"><div class="display"><head>
+<style>
+.mainnav{
+	width: 800px;
+	height: 65px;
+	margin-right: 0px;
+	display: flex;
+	align-content:center;
+	
+
+
+
+
+}
+
+.mainbuttonwhite{
+	height: 65px;
+	background-image:url("../../img/mainbuttonwhite.png");
+	width:200px;
+	background-origin: border-box;
+background-size:cover;
+background-position: fixed;
+background-repeat: no-repeat;
+box-sizing:border-box;
+overflow: hidden;
+
+font-family: 'Khula', sans-serif;
+font-weight: 800;
+text-align: center;
+padding-top: .9em;
+font-size: 25px;
+
+	
+} 
+
+
+
+
+.mainbuttonblack{
+	height: 65px;
+	background-image:url("../../img/mainbuttonblack.png");
+		width:200px;
+	background-origin: border-box;
+background-size:cover;
+background-position: fixed;
+background-repeat: no-repeat;
+box-sizing:border-box;
+overflow: hidden;
+
+	
+font-family: 'Khula', sans-serif;
+font-weight: 800;
+font-size: 25px;
+color: white;
+text-align: center;
+padding-top: .9em;
+	}
+
+.mainbuttonblack:hover{
+	color:yellow;
+	
+
+}
+
+
+</style>
+</head>
+<div class="mainnav"><div class="mainbuttonwhite">FEED
+</div>
+<div class="mainbuttonblack">CALENDAR
+</div>
+<div class="mainbuttonblack">PROFILES
+</div>
+<div class="mainbuttonblack">RESOURCES
+</div>
+</div></div><div class="source"><textarea rows="6" cols="30">&lt;head&gt;
+&lt;style&gt;
+.mainnav{
+	width: 800px;
+	height: 65px;
+	margin-right: 0px;
+	display: flex;
+	align-content:center;
+	
+
+
+
+
+}
+
+.mainbuttonwhite{
+	height: 65px;
+	background-image:url(&quot;../../img/mainbuttonwhite.png&quot;);
+	width:200px;
+	background-origin: border-box;
+background-size:cover;
+background-position: fixed;
+background-repeat: no-repeat;
+box-sizing:border-box;
+overflow: hidden;
+
+font-family: 'Khula', sans-serif;
+font-weight: 800;
+text-align: center;
+padding-top: .9em;
+font-size: 25px;
+
+	
+} 
+
+
+
+
+.mainbuttonblack{
+	height: 65px;
+	background-image:url(&quot;../../img/mainbuttonblack.png&quot;);
+		width:200px;
+	background-origin: border-box;
+background-size:cover;
+background-position: fixed;
+background-repeat: no-repeat;
+box-sizing:border-box;
+overflow: hidden;
+
+	
+font-family: 'Khula', sans-serif;
+font-weight: 800;
+font-size: 25px;
+color: white;
+text-align: center;
+padding-top: .9em;
+	}
+
+.mainbuttonblack:hover{
+	color:yellow;
+	
+
+}
+
+
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;div class=&quot;mainnav&quot;&gt;&lt;div class=&quot;mainbuttonwhite&quot;&gt;FEED
+&lt;/div&gt;
+&lt;div class=&quot;mainbuttonblack&quot;&gt;CALENDAR
+&lt;/div&gt;
+&lt;div class=&quot;mainbuttonblack&quot;&gt;PROFILES
+&lt;/div&gt;
+&lt;div class=&quot;mainbuttonblack&quot;&gt;RESOURCES
+&lt;/div&gt;
+&lt;/div&gt;</textarea><p><a href="patterns/mainnav.html">mainnav.html</a></p></div></div><div class="pattern"><div class="display"> <head>
+<link href='https://fonts.googleapis.com/css?family=Khula:400,800,700,600,300' rel='stylesheet' type='text/css'>
+<style> 
+input[type=search] {
+  border: 0;
+  border-radius: 0;
+  background-color: pink;
+  width: 175px;
+    height: 25px;
+margin:0px;
+  -webkit-appearance: none;
+  display: inline-block;
+  color: black;
+  
+  box-sizing:border-box;
+}
+
+input[type=button] {
+  border: 0;
+  border-radius: 0;
+  background-color:transparent;
+  background-image: url("../img/search2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+
+box-sizing:border-box;
+  -webkit-appearance: none;
+}
+</style>
+</style>
+ <form>
+            <input type="button">
+            <input type="search" placeholder="Search">
+             
+
+        </form></div><div class="source"><textarea rows="6" cols="30"> &lt;head&gt;
+&lt;link href='https://fonts.googleapis.com/css?family=Khula:400,800,700,600,300' rel='stylesheet' type='text/css'&gt;
+&lt;style&gt; 
+input[type=search] {
+  border: 0;
+  border-radius: 0;
+  background-color: pink;
+  width: 175px;
+    height: 25px;
+margin:0px;
+  -webkit-appearance: none;
+  display: inline-block;
+  color: black;
+  
+  box-sizing:border-box;
+}
+
+input[type=button] {
+  border: 0;
+  border-radius: 0;
+  background-color:transparent;
+  background-image: url(&quot;../img/search2.png&quot;);
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+
+box-sizing:border-box;
+  -webkit-appearance: none;
+}
+&lt;/style&gt;
+&lt;/style&gt;
+ &lt;form&gt;
+            &lt;input type=&quot;button&quot;&gt;
+            &lt;input type=&quot;search&quot; placeholder=&quot;Search&quot;&gt;
+             
+
+        &lt;/form&gt;</textarea><p><a href="patterns/search.html">search.html</a></p></div></div><div class="pattern"><div class="display">
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Khula:400,800,700,600,300' rel='stylesheet' type='text/css'>
+	<style>
+
+	li{
+	display: inline-block;
+	margin: 7px;
+	text-align: center;
+
+}
+
+
+li:hover{
+	color:#00D85E;
+
+}
+
+	.extnav{width:400px;
+background-color: transparent;
+box-sizing:border-box;
+font-family: "khula";
+font-weight: 200}
+
+
+
+.logo{
+	width: 200px;
+	color: black;
+background-color: transparent;
+box-sizing:border-box;
+
+font-family: 'Khula', sans-serif;
+font-weight: 800;
+font-size: 45px;
+}
+
+.topcontainer{
+	width: 1200px;
+	height: 65px;
+		display: flex;
+
+
+
+}
+
+	</style>
+
+
+</head>
+
+<div class="topcontainer"><div class="logo">MICA GD</div><div class="extnav"><ul><li>MICA.edu</li><li>Post-Bacc GD</li><li>Graduate GD</li></ul></div>
+
+</div><div class="source"><textarea rows="6" cols="30">
+&lt;head&gt;
+
+&lt;link href='https://fonts.googleapis.com/css?family=Khula:400,800,700,600,300' rel='stylesheet' type='text/css'&gt;
+	&lt;style&gt;
+
+	li{
+	display: inline-block;
+	margin: 7px;
+	text-align: center;
+
+}
+
+
+li:hover{
+	color:#00D85E;
+
+}
+
+	.extnav{width:400px;
+background-color: transparent;
+box-sizing:border-box;
+font-family: &quot;khula&quot;;
+font-weight: 200}
+
+
+
+.logo{
+	width: 200px;
+	color: black;
+background-color: transparent;
+box-sizing:border-box;
+
+font-family: 'Khula', sans-serif;
+font-weight: 800;
+font-size: 45px;
+}
+
+.topcontainer{
+	width: 1200px;
+	height: 65px;
+		display: flex;
+
+
+
+}
+
+	&lt;/style&gt;
+
+
+&lt;/head&gt;
+
+&lt;div class=&quot;topcontainer&quot;&gt;&lt;div class=&quot;logo&quot;&gt;MICA GD&lt;/div&gt;&lt;div class=&quot;extnav&quot;&gt;&lt;ul&gt;&lt;li&gt;MICA.edu&lt;/li&gt;&lt;li&gt;Post-Bacc GD&lt;/li&gt;&lt;li&gt;Graduate GD&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+</textarea><p><a href="patterns/topcontainer.html">topcontainer.html</a></p></div></div>
+</body>
+</html>
